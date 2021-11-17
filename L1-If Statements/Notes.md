@@ -1,14 +1,12 @@
 # Unit 3 - Decision Structures
 
-## [**MovieTickets Sandbox**] [sandbox]
-
 ## If Statements
 
-Thus far, our programs have executed linearly. However, programs are able to branch, create many possible outcomes based on user input. In other words, programs can make decisions.
+Thus far, our programs have executed linearly. However, programs are able to branch, create many possible outcomes based on user input. In other words, programs can make decisions. 
 
-[**Relational Operators**](https://www.tutorialspoint.com/java/java_relational_operators_examples.htm) allow programs to make decisions by comparing variables values. When you use these operators to make a comparison its called a `boolean expression` because these expressions evaluate to either `true` or `false`.
+[**Relational Operators**](https://www.tutorialspoint.com/java/java_relational_operators_examples.htm) allow programs to make decisions by comparing variables values. When you use these operators to make a comparison its called a `boolean expression` because these expressions evaluate to either `true` or `false`. 
 
-Example:
+Example: 
 * `5 > 7`   returns `false`
 * `19 <= 19` returns `true`
 * `25 != 25` returns `false`
@@ -19,7 +17,7 @@ Keep in mind the [**Order of Precedence**](http://www.cs.bilkent.edu.tr/~guvenir
 Examples of boolean expressions:
 ![](boolean%20expressions.png)
 
-These expressions can be passed to `System.out.println()` and assigned to variables, but will only print `true` or `false`.
+These expressions can be passed to `System.out.println()` and assigned to variables, but will only print `true` or `false`. 
 
 
 [**If-Statements**](https://www.tutorialspoint.com/java/if_statement_in_java.htm) are the way computers make decisions. They are written as:
@@ -61,7 +59,7 @@ public class MovieTickets {
 }
 ```
 
-Keep in mind that if-statements will execute linearly if their boolean-expressions are true. Let's explore this [**Sandbox**][sandbox] :
+Keep in mind that if-statements will execute linearly if their boolean-expressions are true.
 
 Let's look at a Grading program in the [**Grades**][grades]
 
